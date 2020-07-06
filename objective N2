@@ -1,0 +1,8 @@
+n=[1,2] # an array
+b=0  #variable for result
+while n[-1]<4000000: # if last element in  array <4 000 000
+  n.append(n[-1] + n[-2]) # append elemens in list
+for x in n:    # cycle  for every element in array
+  if x%2 == 0: # if modulo equal 0
+    b=b+x      # add element in variable
+print(b)       # print variable
