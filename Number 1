@@ -1,5 +1,4 @@
 
-
 i = 0  #variable for cycle's counter
 b = 0  #variable for print result
 for i in range(0,1000):
